@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson4CriticalSectionInterlockedMonitorLock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28B871C0-2C11-446C-BD62-F6E53C9530E2}|Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\system programming\\lesson4criticalsectioninterlockedmonitorlock\\lesson4criticalsectioninterlockedmonitorlock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B871C0-2C11-446C-BD62-F6E53C9530E2}|Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj|solutionrelative:lesson4criticalsectioninterlockedmonitorlock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B871C0-2C11-446C-BD62-F6E53C9530E2}|Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\system programming\\lesson4criticalsectioninterlockedmonitorlock\\lesson4criticalsectioninterlockedmonitorlock\\lesson4criticalsectioninterlockedmonitorlock.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{28B871C0-2C11-446C-BD62-F6E53C9530E2}|Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj|solutionrelative:lesson4criticalsectioninterlockedmonitorlock\\lesson4criticalsectioninterlockedmonitorlock.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B871C0-2C11-446C-BD62-F6E53C9530E2}|Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\system programming\\lesson4criticalsectioninterlockedmonitorlock\\lesson4criticalsectioninterlockedmonitorlock\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B871C0-2C11-446C-BD62-F6E53C9530E2}|Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj|solutionrelative:lesson4criticalsectioninterlockedmonitorlock\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lesson4CriticalSectionInterlockedMonitorLock",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj",
+              "RelativeDocumentMoniker": "Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj",
+              "RelativeToolTip": "Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-19T07:40:51.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Lesson4CriticalSectionInterlockedMonitorLock\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock\\Models\\User.cs",
+              "RelativeToolTip": "Lesson4CriticalSectionInterlockedMonitorLock\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T06:44:24.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock\\Program.cs",
+              "RelativeDocumentMoniker": "Lesson4CriticalSectionInterlockedMonitorLock\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson4CriticalSectionInterlockedMonitorLock\\Lesson4CriticalSectionInterlockedMonitorLock\\Program.cs",
+              "RelativeToolTip": "Lesson4CriticalSectionInterlockedMonitorLock\\Program.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAIwIEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T05:14:46.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
