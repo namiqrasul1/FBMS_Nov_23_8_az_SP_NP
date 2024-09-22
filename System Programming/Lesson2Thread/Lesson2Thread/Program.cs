@@ -94,12 +94,12 @@ internal class Program
 
         #endregion
 
-        //for(int i = 0; i < 10; i++)
-        //{
-        //    var j = i;
-        //    Thread t = new(() => { Console.WriteLine(j); });
-        //    t.Start();
-        //}
+        for (int i = 0; i < 10; i++)
+        {
+            var j = i;
+            Thread t = new(() => { Console.WriteLine(j); });
+            t.Start();
+        }
 
         //var str = "Fero";
         //var th = new Thread(() => Console.WriteLine(str));
@@ -127,12 +127,12 @@ internal class Program
 
         //Console.WriteLine("hello");
 
-        var from = @"C:\Users\namiqrasullu\Desktop\Untitled.png";
-        var to = @"C:\Users\namiqrasullu\Desktop\name.ext";
-        FileInfo fileInfo = new FileInfo(from);
+        //var from = @"C:\Users\namiqrasullu\Desktop\Untitled.png";
+        //var to = @"C:\Users\namiqrasullu\Desktop\name.ext";
+        //FileInfo fileInfo = new FileInfo(from);
 
-        Console.WriteLine(fileInfo.FullName);
-        Console.WriteLine(fileInfo.Name);
-        Console.WriteLine(fileInfo.Extension);
+        //Console.WriteLine(fileInfo.FullName);
+        //Console.WriteLine(fileInfo.Name);
+        //Console.WriteLine(fileInfo.Extension);
     }
 }
