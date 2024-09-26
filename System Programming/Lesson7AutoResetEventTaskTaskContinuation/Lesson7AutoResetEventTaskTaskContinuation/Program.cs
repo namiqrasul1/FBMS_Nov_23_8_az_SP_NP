@@ -45,6 +45,8 @@
 // Task (Task Parallel Library)
 
 using System.Linq.Expressions;
+using System.Threading.Channels;
+using System.Xml.Linq;
 
 internal class Program
 {
@@ -79,46 +81,157 @@ internal class Program
 
     #region Working
 
+    //private static int TaskMethod(string name, int n)
+    //{
+    //    Console.WriteLine($"{name} is running. Id: {Thread.CurrentThread.ManagedThreadId} IsThreadPoolThread: {Thread.CurrentThread.IsThreadPoolThread}");
+
+    //    Thread.Sleep(3000);
+
+    //    return n * 2;
+    //}
+
+    //private static void Main(string[] args)
+    //{
+    //    //var t1 = new Task<int>(() => TaskMethod("Task 1", 21));
+    //    //t1.Start();
+    //    //var result = t1.Result;
+    //    //Console.WriteLine(result);
+    //    //Console.WriteLine("continue");
+
+    //    //Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId}");
+
+    //    //var t2 = new Task<int>(() => TaskMethod("Task 2", 21));
+    //    //t2.RunSynchronously();
+
+
+    //    //Console.WriteLine("Main");
+
+
+    //    var t3 = new Task<int>(() => TaskMethod("Task 3", 21));
+    //    t3.Start();
+
+    //    t3.ContinueWith(t =>
+    //    {
+    //        Console.WriteLine($"Id: {Thread.CurrentThread.ManagedThreadId} IsThreadPoolThread: {Thread.CurrentThread.IsThreadPoolThread}");
+    //        Console.WriteLine(t.Result);
+    //    });
+
+    //    Console.WriteLine("Main");
+
+    //    //Func<int> func = () => 5 * 2; ;
+    //    //Expression<Func<int>> expr = () =>  5 * 2; ;
+
+    //    Console.ReadKey();
+    //}
+
+
+    #endregion
+
+    #region Continuation
+
     private static int TaskMethod(string name, int n)
     {
         Console.WriteLine($"{name} is running. Id: {Thread.CurrentThread.ManagedThreadId} IsThreadPoolThread: {Thread.CurrentThread.IsThreadPoolThread}");
 
-        Thread.Sleep(3000);
+        throw new Exception();
+        Thread.Sleep(TimeSpan.FromSeconds(n));
+
+        Console.WriteLine($"{name} completed");
 
         return n * 2;
     }
 
+    private static void SomeMethod()
+    {
+        Console.WriteLine($"Id: {Thread.CurrentThread.ManagedThreadId} IsThreadPoolThread: {Thread.CurrentThread.IsThreadPoolThread}");
+    }
+
     private static void Main(string[] args)
     {
-        //var t1 = new Task<int>(() => TaskMethod("Task 1", 21));
-        //t1.Start();
-        //var result = t1.Result;
-        //Console.WriteLine(result);
-        //Console.WriteLine("continue");
 
-        //Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId}");
+        //var task1 = new Task<int>(() => TaskMethod("Task 1", 2));
+        //var task2 = new Task<int>(() => TaskMethod("Task 2", 5));
+        //task1.Start();
+        //task2.Start();
 
-        //var t2 = new Task<int>(() => TaskMethod("Task 2", 21));
-        //t2.RunSynchronously();
+        //var task2 = task1.ContinueWith(t => { TaskMethod("Continuation Task", 4); });
+
+        //await Task.WhenAny(task1, task2);
+
+        //await Task.WhenAll(task1, task2);
+
+        //Console.WriteLine("salam");
+
+        //var task1 = new Task<string>(() =>
+        //{
+        //    Console.WriteLine("Task Started");
+        //    Thread.Sleep(TimeSpan.FromSeconds(3));
+        //    //throw new Exception();
+        //    return "salam";
+        //});
+
+        //var task2 = task1.ContinueWith(t =>
+        //{
+        //    // t.Result serialize
+        //    Console.WriteLine("Her shey zordu");
+        //}, TaskContinuationOptions.OnlyOnRanToCompletion);
+
+        //var task3 = task1.ContinueWith(t =>
+        //{
+        //    // t.Result serialize
+        //    Console.WriteLine("Hech de zor deyil. ishde problem var");
+        //}, TaskContinuationOptions.OnlyOnFaulted);
+
+        //var task4 = task1.ContinueWith(t =>
+        //{
+        //    // t.Result serialize
+        //    Console.WriteLine("Ishi dayandirdilar");
+        //}, TaskContinuationOptions.OnlyOnCanceled);
+
+        //task1.Start();
 
 
-        //Console.WriteLine("Main");
+        //var task1 = new Task(SomeMethod);
+        ////var task2 = task1.ContinueWith(t => SomeMethod(), TaskContinuationOptions.LongRunning);
+        ////var task2 = task1.ContinueWith(t => SomeMethod(), (TaskContinuationOptions.OnlyOnRanToCompletion | TaskContinuationOptions.ExecuteSynchronously));
+        //var task2 = task1.ContinueWith(t => SomeMethod(), (TaskContinuationOptions.OnlyOnRanToCompletion | TaskContinuationOptions.LongRunning));
 
 
-        var t3 = new Task<int>(() => TaskMethod("Task 3", 21));
-        t3.Start();
+        //task1.Start();
 
-        t3.ContinueWith(t =>
-        {
-            Console.WriteLine($"Id: {Thread.CurrentThread.ManagedThreadId} IsThreadPoolThread: {Thread.CurrentThread.IsThreadPoolThread}");
-            Console.WriteLine(t.Result);
-        });
+        //var task1 = new Task<int>(() => TaskMethod("Task 1", 2));
+        //var task2 = new Task<int>(() => TaskMethod("Task 2", 5));
 
-        Console.WriteLine("Main");
+        //_ = Task.Factory.ContinueWhenAll([task1, task2], tasks =>
+        //   {
+        //       Console.WriteLine("Continuation");
+        //   });
 
-        //Func<int> func = () => 5 * 2; ;
-        //Expression<Func<int>> expr = () =>  5 * 2; ;
+        //_ = Task.Factory.ContinueWhenAny([task1, task2], tasks =>
+        //{
+        //    Console.WriteLine("Continuation");
+        //});
 
+        //_ = task1.ContinueWith(t => { Console.WriteLine("Continuation"); }, TaskContinuationOptions.NotOnRanToCompletion);
+
+        //task1.Start();
+        //task2.Start();
+
+
+        /*
+         
+            OnlyOnRanToCompletion = NotOnFaulted | NotOnCanceled,
+            OnlyOnFaulted = NotOnRanToCompletion | NotOnCanceled,
+            OnlyOnCanceled = NotOnRanToCompletion | NotOnFaulted 
+
+         */
+
+        //dynamic obj = null;
+        //obj.Salam = "salam";
+
+        //List<int> list = [];
+        //string[] strings = [];
+        //LinkedList<int> l = [];
         Console.ReadKey();
     }
 
