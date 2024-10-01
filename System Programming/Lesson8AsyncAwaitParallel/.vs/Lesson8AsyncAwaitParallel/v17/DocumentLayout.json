@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24D93EEB-06E6-46DF-8D0B-A734190DB2E8}|WPF Example\\WPF Example.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\system programming\\lesson8asyncawaitparallel\\wpf example\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24D93EEB-06E6-46DF-8D0B-A734190DB2E8}|WPF Example\\WPF Example.csproj|solutionrelative:wpf example\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D93EEB-06E6-46DF-8D0B-A734190DB2E8}|WPF Example\\WPF Example.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\system programming\\lesson8asyncawaitparallel\\wpf example\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D93EEB-06E6-46DF-8D0B-A734190DB2E8}|WPF Example\\WPF Example.csproj|solutionrelative:wpf example\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC68580-7E82-4B4B-BF0E-65C616DB9410}|ParallelProgramming\\ParallelProgramming.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\system programming\\lesson8asyncawaitparallel\\parallelprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC68580-7E82-4B4B-BF0E-65C616DB9410}|ParallelProgramming\\ParallelProgramming.csproj|solutionrelative:parallelprogramming\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC68580-7E82-4B4B-BF0E-65C616DB9410}|ParallelProgramming\\ParallelProgramming.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\system programming\\lesson8asyncawaitparallel\\parallelprogramming\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC68580-7E82-4B4B-BF0E-65C616DB9410}|ParallelProgramming\\ParallelProgramming.csproj|solutionrelative:parallelprogramming\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\WPF Example\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF Example\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\WPF Example\\MainWindow.xaml",
+              "RelativeToolTip": "WPF Example\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-29T07:45:44.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\WPF Example\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF Example\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\WPF Example\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF Example\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:40:29.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\ParallelProgramming\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ParallelProgramming\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\ParallelProgramming\\Models\\Student.cs",
+              "RelativeToolTip": "ParallelProgramming\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:21:14.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\ParallelProgramming\\Program.cs",
+              "RelativeDocumentMoniker": "ParallelProgramming\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\System Programming\\Lesson8AsyncAwaitParallel\\ParallelProgramming\\Program.cs",
+              "RelativeToolTip": "ParallelProgramming\\Program.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:18:28.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
