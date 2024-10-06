@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson2TcpPart2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF5082C-E4BC-423E-A821-CD049C8A93A5}|ServerSide\\ServerSide.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson2tcppart2\\serverside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF5082C-E4BC-423E-A821-CD049C8A93A5}|ServerSide\\ServerSide.csproj|solutionrelative:serverside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E02E01D-20A1-4B1E-8B50-80AEBEC9128E}|ClientSide\\ClientSide.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson2tcppart2\\clientside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E02E01D-20A1-4B1E-8B50-80AEBEC9128E}|ClientSide\\ClientSide.csproj|solutionrelative:clientside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson2TcpPart2\\ClientSide\\Program.cs",
+              "RelativeDocumentMoniker": "ClientSide\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson2TcpPart2\\ClientSide\\Program.cs",
+              "RelativeToolTip": "ClientSide\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T06:44:06.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson2TcpPart2\\ServerSide\\Program.cs",
+              "RelativeDocumentMoniker": "ServerSide\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson2TcpPart2\\ServerSide\\Program.cs",
+              "RelativeToolTip": "ServerSide\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T06:35:17.101Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
