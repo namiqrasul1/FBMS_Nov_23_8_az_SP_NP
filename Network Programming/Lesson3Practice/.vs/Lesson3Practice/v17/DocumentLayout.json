@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson3Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6123E2DA-7195-4AFE-8D8C-6C70D6D31386}|ClientSide\\ClientSide.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson3practice\\clientside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6123E2DA-7195-4AFE-8D8C-6C70D6D31386}|ClientSide\\ClientSide.csproj|solutionrelative:clientside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38A2D01-B838-4915-8050-BC7BC8810FE0}|ServerSide\\ServerSide.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson3practice\\serverside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38A2D01-B838-4915-8050-BC7BC8810FE0}|ServerSide\\ServerSide.csproj|solutionrelative:serverside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A38A2D01-B838-4915-8050-BC7BC8810FE0}|ServerSide\\ServerSide.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson3practice\\serverside\\example\\filestreamwriteadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A38A2D01-B838-4915-8050-BC7BC8810FE0}|ServerSide\\ServerSide.csproj|solutionrelative:serverside\\example\\filestreamwriteadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileStreamWriteAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson3Practice\\ServerSide\\Example\\FileStreamWriteAdapter.cs",
+              "RelativeDocumentMoniker": "ServerSide\\Example\\FileStreamWriteAdapter.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson3Practice\\ServerSide\\Example\\FileStreamWriteAdapter.cs",
+              "RelativeToolTip": "ServerSide\\Example\\FileStreamWriteAdapter.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:43:52.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson3Practice\\ClientSide\\Program.cs",
+              "RelativeDocumentMoniker": "ClientSide\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson3Practice\\ClientSide\\Program.cs",
+              "RelativeToolTip": "ClientSide\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:27:27.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson3Practice\\ServerSide\\Program.cs",
+              "RelativeDocumentMoniker": "ServerSide\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson3Practice\\ServerSide\\Program.cs",
+              "RelativeToolTip": "ServerSide\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:13:16.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
