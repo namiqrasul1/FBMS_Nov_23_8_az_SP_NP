@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namiqrasullu\\Desktop\\FBAS_Nov_23_7_az_SP_NP\\Network Programming\\Lesson4Udp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2704249-E4B2-4DF4-A27E-C4E451BC2E6A}|ClientSide\\ClientSide.csproj|c:\\users\\namiqrasullu\\desktop\\fbas_nov_23_7_az_sp_np\\network programming\\lesson4udp\\clientside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2704249-E4B2-4DF4-A27E-C4E451BC2E6A}|ClientSide\\ClientSide.csproj|solutionrelative:clientside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7610DB28-39FA-4A5A-AC2C-A700D46BEB0D}|ServerSide\\ServerSide.csproj|c:\\users\\namiqrasullu\\desktop\\fbas_nov_23_7_az_sp_np\\network programming\\lesson4udp\\serverside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7610DB28-39FA-4A5A-AC2C-A700D46BEB0D}|ServerSide\\ServerSide.csproj|solutionrelative:serverside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBAS_Nov_23_7_az_SP_NP\\Network Programming\\Lesson4Udp\\ClientSide\\Program.cs",
+              "RelativeDocumentMoniker": "ClientSide\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBAS_Nov_23_7_az_SP_NP\\Network Programming\\Lesson4Udp\\ClientSide\\Program.cs",
+              "RelativeToolTip": "ClientSide\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:56:56.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBAS_Nov_23_7_az_SP_NP\\Network Programming\\Lesson4Udp\\ServerSide\\Program.cs",
+              "RelativeDocumentMoniker": "ServerSide\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBAS_Nov_23_7_az_SP_NP\\Network Programming\\Lesson4Udp\\ServerSide\\Program.cs",
+              "RelativeToolTip": "ServerSide\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:48:25.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
