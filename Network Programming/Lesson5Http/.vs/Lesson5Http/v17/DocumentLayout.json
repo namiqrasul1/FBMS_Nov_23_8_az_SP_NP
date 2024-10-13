@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97155AD7-3387-461F-9630-349F151C0EDE}|Lesson5Http\\Lesson5Http.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson5http\\lesson5http\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97155AD7-3387-461F-9630-349F151C0EDE}|Lesson5Http\\Lesson5Http.csproj|solutionrelative:lesson5http\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97155AD7-3387-461F-9630-349F151C0EDE}|Lesson5Http\\Lesson5Http.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson5http\\lesson5http\\views\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97155AD7-3387-461F-9630-349F151C0EDE}|Lesson5Http\\Lesson5Http.csproj|solutionrelative:lesson5http\\views\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97155AD7-3387-461F-9630-349F151C0EDE}|Lesson5Http\\Lesson5Http.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson5http\\lesson5http\\views\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97155AD7-3387-461F-9630-349F151C0EDE}|Lesson5Http\\Lesson5Http.csproj|solutionrelative:lesson5http\\views\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97155AD7-3387-461F-9630-349F151C0EDE}|Lesson5Http\\Lesson5Http.csproj|c:\\users\\namiqrasullu\\desktop\\fbms_nov_23_8_az_sp_np\\network programming\\lesson5http\\lesson5http\\views\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97155AD7-3387-461F-9630-349F151C0EDE}|Lesson5Http\\Lesson5Http.csproj|solutionrelative:lesson5http\\views\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.html",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\Lesson5Http\\Views\\About.html",
+              "RelativeDocumentMoniker": "Lesson5Http\\Views\\About.html",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\Lesson5Http\\Views\\About.html",
+              "RelativeToolTip": "Lesson5Http\\Views\\About.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-13T07:14:35.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.html",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\Lesson5Http\\Views\\Home.html",
+              "RelativeDocumentMoniker": "Lesson5Http\\Views\\Home.html",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\Lesson5Http\\Views\\Home.html",
+              "RelativeToolTip": "Lesson5Http\\Views\\Home.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-13T07:14:34.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.html",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\Lesson5Http\\Views\\Contact.html",
+              "RelativeDocumentMoniker": "Lesson5Http\\Views\\Contact.html",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\Lesson5Http\\Views\\Contact.html",
+              "RelativeToolTip": "Lesson5Http\\Views\\Contact.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-13T07:14:27.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\Lesson5Http\\Program.cs",
+              "RelativeDocumentMoniker": "Lesson5Http\\Program.cs",
+              "ToolTip": "C:\\Users\\namiqrasullu\\Desktop\\FBMS_Nov_23_8_az_SP_NP\\Network Programming\\Lesson5Http\\Lesson5Http\\Program.cs",
+              "RelativeToolTip": "Lesson5Http\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwDIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T06:42:11.286Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
