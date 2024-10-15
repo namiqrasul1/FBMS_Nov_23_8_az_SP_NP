@@ -1,4 +1,6 @@
 ﻿using System.Net;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Lesson5Http;
 
@@ -44,12 +46,11 @@ class WebHost
         }
 
 
-        var str = context.Request.RawUrl; // [,asdasd,contact]
+        var str = context.Request.RawUrl; // [,asdasd,contact] //a.jpg
 
         var path = string.Empty;
 
         if (!string.IsNullOrWhiteSpace(str) && str.EndsWith(".png"))
-
             path = $@"C:\Users\namiqrasullu\Desktop\FBMS_Nov_23_8_az_SP_NP\Network Programming\Lesson5Http\Lesson5Http\Images\{str?.Split('/').Last()}";
         else
             path = $@"C:\Users\namiqrasullu\Desktop\FBMS_Nov_23_8_az_SP_NP\Network Programming\Lesson5Http\Lesson5Http\Views\{str?.Split('/').Last()}.html";
@@ -80,8 +81,53 @@ class WebHost
 
 class Program
 {
-    private static void Main(string[] args)
+    private static async Task Main(string[] args)
     {
-        new WebHost(27001).Run();
+        //new WebHost(27001).Run();
+
+        var client = new HttpClient();
+        //var result = await client.GetAsync("https://jsonplaceholder.typicode.com/posts"); // HttpResponseMessage lazim olacaqsa
+        //var json = await result.Content.ReadAsStringAsync();
+        //var posts = JsonSerializer.Deserialize<List<Post>>(json);
+        //var result = await client.GetStringAsync("https://jsonplaceholder.typicode.com/posts/234165465");
+        //var posts = JsonSerializer.Deserialize<Post>(result);
+        //var stream = await client.GetStreamAsync("https://jsonplaceholder.typicode.com/posts");
+
+        //var json = JsonSerializer.Serialize(new Post { UserId = 1, Body = "Hakuna Matata", Title = "John Doe" });
+
+        //var content = new StringContent(json);
+
+        //var response = await client.PostAsync("https://jsonplaceholder.typicode.com/posts", content);
+        //if (response.IsSuccessStatusCode)
+        //{
+        //    await Console.Out.WriteLineAsync("element ugurla elave olundu");
+        //    var result = await response.Content.ReadAsStringAsync();
+        //    await Console.Out.WriteLineAsync(result);
+        //}
+
+        //var response = await client.DeleteAsync("https://jsonplaceholder.typicode.com/posts/2");
+        //if (response.IsSuccessStatusCode)
+        //{
+        //    await Console.Out.WriteLineAsync("element silindi");
+        //    await Console.Out.WriteLineAsync(response.StatusCode.ToString());
+        //}
+
+        //client.PutAsync();
     }
+}
+
+
+class Post
+{
+    [JsonPropertyName("id")]
+    public int Id { get; set; }
+
+    [JsonPropertyName("userId")]
+    public int UserId { get; set; } // userId
+
+    [JsonPropertyName("title")]
+    public string Title { get; set; }
+
+    [JsonPropertyName("body")]
+    public string Body { get; set; }
 }
